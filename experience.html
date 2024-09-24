@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Jesan Akter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jesan Akter</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <!-- AI Web3 Intern at smallcap.ai -->
+        <section id="ai-web3-intern">
+            <h3>AI Web3 Intern at smallcap.ai - June 2024 to August 2024</h3>
+            <div class="experience-details">
+                <div class="responsibilities">
+                    <h4>Responsibilities:</h4>
+                    <ul>
+                        <li>Responsible for the UI/UX design and creating the frontend pages of the website using CSS and JavaScript.</li>
+                        <li>Developing and implementing data capture processes, ensuring high-quality data collection and processing for AI and machine roles.</li>
+                        <li>Collaborated effectively within a team, including brainstorming sessions, code reviews, and pair programming.</li>
+                    </ul>
+                </div>
+                <div class="skills-learned">
+                    <h4>Skills Learned:</h4>
+                    <ul>
+                        <li>UI/UX Design</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Data Capture Processes</li>
+                        <li>Web3 Technology</li>
+                        <li>Collaborative Development</li>
+                        <li>Problem-Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- JPMorgan Chase Markets (Sales & Trading) Virtual Experience -->
+        <section id="jpm-sales-trading">
+            <h3>JPMorgan Chase Markets (Sales & Trading) Virtual Experience Forage - September 2024</h3>
+            <div class="experience-details">
+                <div class="responsibilities">
+                    <h4>Responsibilities:</h4>
+                    <ul>
+                        <li>Pitched a new client to management.</li>
+                        <li>Developed a market analysis and trade idea that a client could present to their board.</li>
+                        <li>Pitched a bundled solution to a client looking to tender a new provider.</li>
+                    </ul>
+                </div>
+                <div class="skills-learned">
+                    <h4>Skills Learned:</h4>
+                    <ul>
+                        <li>Analytical Skills</li>
+                        <li>Communication</li>
+                        <li>Industry Analysis</li>
+                        <li>Industry Knowledge</li>
+                        <li>Market Analysis</li>
+                        <li>Positioning</li>
+                        <li>Research</li>
+                        <li>Sales Acumen</li>
+                        <li>Strategic Rationale</li>
+                        <li>Tactical Rational</li>
+                    </ul>
+                </div>
+                <a href="https://drive.google.com/file/d/1vHIHgLeeDIaAwPZWpJSx1-qktIAyDSl7/view?usp=sharing" target="_blank">Download Certificate</a>
+            </div>
+        </section>
+
+        <!-- Mastercard Cybersecurity Virtual Experience -->
+        <section id="mastercard-cybersecurity">
+            <h3>Mastercard Cybersecurity Virtual Experience on Forage - November 2023</h3>
+            <div class="experience-details">
+                <div class="responsibilities">
+                    <h4>Responsibilities:</h4>
+                    <ul>
+                        <li>Completed a job simulation where I served as an analyst on Mastercard’s Security Awareness Team.</li>
+                        <li>Helped identify and report security threats such as phishing.</li>
+                        <li>Analyzed and identified which areas of the business needed more robust security training and implemented training courses and procedures for those teams.</li>
+                    </ul>
+                </div>
+                <div class="skills-learned">
+                    <h4>Skills Learned:</h4>
+                    <ul>
+                        <li>Communication</li>
+                        <li>Cybersecurity</li>
+                        <li>Data Analysis</li>
+                        <li>Data Presentation</li>
+                        <li>Design Thinking</li>
+                        <li>Problem Solving</li>
+                        <li>Security Awareness Training</li>
+                        <li>Strategy</li>
+                        <li>Technical Security Awareness</li>
+                    </ul>
+                </div>
+                <a href="https://drive.google.com/file/d/1PDE_f3rEAKAMG6QqQWfDyZAPhZZo8tPh/view?usp=sharing" target="_blank">Download Certificate</a>
+            </div>
+        </section>
+
+        <!-- JPMorgan Chase Cybersecurity Virtual Experience -->
+        <section id="jpm-cybersecurity">
+            <h3>JPMorgan Chase Cybersecurity Virtual Experience Program on Forage - December 2023</h3>
+            <div class="experience-details">
+                <a href="https://drive.google.com/file/d/1hlMVT04lz0KeHwE11oFlLglJ1Ni8WT5D/view?usp=sharing" target="_blank">Download Certificate</a>
+                <div class="skills-learned">
+                    <h4>Skills Learned:</h4>
+                    <ul>
+                        <li>Access Control</li>
+                        <li>Application Security Hygiene</li>
+                        <li>Data Structures</li>
+                        <li>Email Security Fundamentals</li>
+                        <li>Exploratory Data Analysis</li>
+                        <li>Open Source</li>
+                        <li>Presentation</li>
+                        <li>Text-Based ML Models</li>
+                        <li>Web Application Development</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script>
+        // Function to offset scroll position to avoid being hidden by the header
+        window.addEventListener("hashchange", function() {
+            // Check if there is a hash in the URL (like #computer-vision)
+            const element = document.querySelector(window.location.hash);
+            if (element) {
+                // Adjust the scroll position to account for the fixed header
+                window.scrollTo({
+                    top: element.offsetTop - 80,  // Adjust this value based on your header height
+                    behavior: "smooth"
+                });
+            }
+        });
+    
+        // Run on initial page load to adjust scroll if there's a hash
+        window.addEventListener("load", function() {
+            const element = document.querySelector(window.location.hash);
+            if (element) {
+                // Adjust the scroll position to account for the fixed header
+                window.scrollTo({
+                    top: element.offsetTop - 110,  // Adjust this value based on your header height
+                    behavior: "smooth"
+                });
+            }
+        });
+    </script>
+    <footer>
+        <p>&copy; 2024 Jesan Akter</p>
+    </footer>
+</body>
+</html>

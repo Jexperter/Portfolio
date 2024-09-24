@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithmic Trading Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Algorithmic Trading Project</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="description">
+        <h2>Description</h2>
+        <p>
+            I have developed several scripts to collect data, including past trades and liquidation events, to effectively backtest my chosen strategies. 
+            I'm currently working on implementing a strategy that takes trades when a certain amount of liquidation occurs, with added parameters and conditions to 
+            maximize returns, improve the Sharpe ratio, and reduce maximum drawdown. 
+            <br><br>
+            This project represents my ongoing effort to refine my strategies by leveraging data and analytics. Feel free to reach out for advice or collaboration at: <a href="mailto:akterjesan@gmail.com">akterjesan@gmail.com</a>.
+        </p>
+    </section>
+
+    <section id="example">
+        <h2>Current Strategy</h2>
+        <p>
+            This is a simple liquidation strategy where it takes a trade when a certain amount of liquidations occur. I used historical trade and liquidation data to simulate the outcomes and measure the effectiveness of the strategy.
+        </p>
+        <p>
+            Check it out: 
+            <a href="https://historical-crypto-data.streamlit.app/" target="_blank">Liquidation Backtest</a>.
+        </p>
+    </section>
+
+    <section id="fetch">
+        <h2>Fetch Asset History</h2>
+        <p>
+            This script provides historical data trades from any ticker, interval, start date, and end date using the Binance API. 
+            I usually use this to generate datasets that I later use to backtest strategies.
+        </p>
+        <p>
+            Check it out: 
+            <a href="https://liquidation-backtest.streamlit.app/" target="_blank">Historical Crypto Data</a>.
+        </p>
+    </section>
+    
+
+    <section id="source">
+        <h2>Source Code</h2>
+        <p>The source code for the strategy and data collection scripts can be found on my GitHub:</p>
+        <a href="https://github.com/Jexperter/Trading-Strategies" target="_blank">View Source Code</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jesan Akter</p>
+    </footer>
+</body>
+</html>
